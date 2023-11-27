@@ -1,0 +1,24 @@
+.header-cont {
+  width: 100%;
+  background-color: #152850;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.website-logo {
+  width: 120px;
+  height: 50px;
+}
+.logout-btn {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 17px;
+  border: 1px solid white;
+  cursor: pointer;
+  background-color: transparent;
+}
