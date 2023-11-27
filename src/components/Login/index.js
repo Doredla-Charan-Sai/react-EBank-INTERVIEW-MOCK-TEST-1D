@@ -29,7 +29,7 @@ class Login extends Component {
       const data = await response.json()
       const jwtToken = data.jwt_token
       Cookies.set('jwt_token', jwtToken, {expires: 30})
-      const history = this.props
+      const {history} = this.props
       history.replace('/')
     } else {
       const data = await response.json()

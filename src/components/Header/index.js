@@ -4,7 +4,7 @@ import './index.css'
 
 const Header = props => {
   const logout = () => {
-    const history = props
+    const {history} = props
     history.replace('/ebank/login')
     Cookies.remove('jwt_token')
   }
